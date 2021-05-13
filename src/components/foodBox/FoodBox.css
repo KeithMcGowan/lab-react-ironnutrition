@@ -1,0 +1,10 @@
+.box {
+    margin: 20px;
+    width: 100%;
+    box-shadow: 10px 10px 15px black;
+    transition: transform .5s ease;
+}
+
+.box:hover {
+    transform: scale(1.07);
+}

@@ -1,0 +1,10 @@
+.new-food-form {
+    margin: 5px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.new-food-form input {
+    margin: 0 15px;
+    line-height: 1.5rem;
+}

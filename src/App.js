@@ -1,20 +1,17 @@
 import React from 'react';
 import './App.css';
 import 'bulma/css/bulma.css';
-import foods from './foods.json';
-import FoodBox from './components/foodBox/FoodBox';
+import Main from './components/main/Main';
 
-class App extends React.Component {
-  state = { food: foods.slice() };
-
-  render() {
+function App() {
     return (
       <div className="App">
-        <h1>IronNutrition</h1>
-        <FoodBox food={this.state.food} />
+        <div className="title">
+          <h1><u><strong>IronNutrition</strong></u></h1>
+        </div>
+        <Main />
       </div>
     );
-  }
 }
 
 export default App;
